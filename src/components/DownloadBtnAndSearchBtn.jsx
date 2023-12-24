@@ -17,7 +17,7 @@ const SearchBtnAndDownloadBtn = (props) => {
 
     <div className="overflow-hidden outline-none p-1.5 rounded-xl">
       <button
-      title={window.innerWidth<=640?"Search":""}
+      title={window.innerWidth<=640?type:""}
         className={`flex items-center gap-x-2 outline-none bg-blue-600 rounded-lg p-2 hover:bg-blue-500  text-white shadow-sm shadow-blue-200 select-none transition-transform duration-150 ${
             primaryClicked ? " buttonEffect" : ""
         }`}
