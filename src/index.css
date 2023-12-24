@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.buttonEffect{
+  animation: btnAnimation 2s 1 ;
+ transition: ease-in-out;
+ animation-duration: 1.5s;
+}
+@keyframes btnAnimation {
+ 0%{
+  box-shadow: 0px 0px 5px rgb(75, 161, 211);
+}
+20%{
+  box-shadow: 0px 0px 10px rgb(41, 141, 199);
+}
+50%{
+  box-shadow: 0px 0px 15px rgb(145, 194, 223);
+}
+70%{
+  box-shadow: 0px 0px 20px rgb(157, 196, 218);
+}
+100%{
+  box-shadow: 0px 0px 25px rgb(245, 247, 247);
+}
+}
